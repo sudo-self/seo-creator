@@ -17,7 +17,7 @@ export default function FacebookPreview() {
           borderRadius="2px 2px 0 0"
           border="1px solid"
           borderColor={useColorModeValue('border.100', 'gray.400')}
-          src="https://images.unsplash.com/photo-1616469829718-0faf16324280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          src="https://firebasestorage.googleapis.com/v0/b/svelte-forever.appspot.com/o/facebook.svg?alt=media&token=1e2b6ed7-f250-46fe-928b-fa71c55608d5&auto=format&fit=crop&w=870&q=80"
         />
         <Box
           bg={useColorModeValue('gray.100', 'gray.300')}
