@@ -67,7 +67,7 @@ export default function MetatagsModal({ isOpen, setIsOpen }: MetaTagsModalProps)
           <Box display="flex" flexDirection="column" alignItems="center" color="fill.300" gridGap="0.5rem">
             <SiSpringCreators size="2.5rem" />
             <Heading as="h2" textAlign="center" fontSize="1.6rem" color={useColorModeValue('gray.900', 'gray.100')}>
-              Your Meta Tags successfully created!
+              Your SEO was Created!
             </Heading>
           </Box>
           <WarningMsg />
