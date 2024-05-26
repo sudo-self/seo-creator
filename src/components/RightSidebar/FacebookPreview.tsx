@@ -27,13 +27,13 @@ export default function FacebookPreview() {
           borderColor="border.100"
         >
           <Text textTransform="uppercase" fontSize="0.8rem" color="gray.600" fontWeight="normal">
-            {ogUrl.trim().length > 1 ? `${ogUrl}`.trimStart().trimEnd() : 'seo-generator.vercel.app'}
+            {ogUrl.trim().length > 1 ? `${ogUrl}`.trimStart().trimEnd() : 'seo-creator.vercel.app'}
           </Text>
           <Text textTransform={capitalizedText ? 'capitalize' : 'none'} fontWeight="semibold" color="gray.900">
             {titleInput.trim().length > 1 ? titleInput : 'Seo Creator- Create, Edit, and Deploy your SEO'}
           </Text>
           <Text color="#606770" fontSize="0.9rem">
-            {descriptionTextarea.trim().length > 1 ? descriptionTextarea : 'description of the website.'}
+            {descriptionTextarea.trim().length > 1 ? descriptionTextarea : 'seo cretor tool written in typescript.'}
           </Text>
         </Box>
       </Box>
