@@ -17,7 +17,7 @@ export default function Main() {
     >
       <SEO
         title="Seo Creator"
-        description="Create, Edit, Configure, and Deploy your SEO"
+        description="Create, Edit, and Deploy your SEO"
       />
       <SocialSidebar />
       <LeftSidebar />
