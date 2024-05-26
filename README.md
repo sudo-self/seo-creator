@@ -6,8 +6,6 @@ Welcome to SEO Creator, an Android mobile application designed to assist you in 
 
 ![Screenshot ](https://github.com/sudo-self/seo-creator/assets/119916323/3ee9a87a-0d4f-4be6-b3d0-b69d08f8e6a2)
 
-![Screenshot ](https://github.com/sudo-self/seo-creator/assets/119916323/e1f5c74a-157b-411b-8095-ddb8e0a7f157)
-
 ### Installation
 
 To get started with SEO Creator, simply download the Android mobile app from the following link:
