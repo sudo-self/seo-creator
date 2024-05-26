@@ -61,7 +61,7 @@ export const GenerateMetatagsBtn = ({ setIsOpen }: { setIsOpen: Dispatch<SetStat
       setIsOpen(true);
     }
 
-    // TODO: make an error message if there is no text on inputs
+   
   };
 
   return (
