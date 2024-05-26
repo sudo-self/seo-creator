@@ -4,7 +4,8 @@ Welcome to SEO Creator, an Android mobile application designed to assist you in 
 
 ### Screenshots
 
-[screenshot](https://github.com/sudo-self/seo-creator/assets/119916323/32eb6cd7-6d0e-484a-a136-b2377cbac1b8)
+<img width="1252" alt="Screenshot 2024-05-25 at 10 21 26 PM" src="https://github.com/sudo-self/seo-creator/assets/119916323/7fd67ace-9934-44a4-bea8-8af8eec37a76">
+
 
 ### Installation
 
