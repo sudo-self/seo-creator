@@ -11,7 +11,7 @@ export default function GoogleSearchPreview() {
 
   return (
     <FadeIn>
-      <PreviewTittle title="Google" />
+      <PreviewTittle title="Google Search" />
       <Box
         m="0.5rem 0 1.5rem"
         p="0.8rem 5rem 0.8rem 0.5rem"
