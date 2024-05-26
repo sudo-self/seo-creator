@@ -17,7 +17,7 @@ export default function MetaImg() {
 
   return (
     <Box maxWidth={!useImgUrl && '500px'}>
-      <InputLabel isFocus={false} value="Image" inputId="metaImgUrl" infoTxt="Add a nice preview of your site">
+      <InputLabel isFocus={false} value="Image" inputId="metaImgUrl" infoTxt="photo display preview of website">
         <HoverPopup text="Use Domain Url" width="105px" textSize="0.65rem" top="20px">
           <Switch
             size="md"
