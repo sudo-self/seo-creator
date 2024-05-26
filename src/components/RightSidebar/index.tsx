@@ -31,7 +31,6 @@ export default function RightSidebar() {
             {facebookPreview && <FacebookPreview />}
             {twitterPreview && <TwitterPreview />}
             {linkedinPreview && <LinkedInPreview />}
-            {pinterestPreview && <PinterestPreview />}
           </Box>
         </Box>
       )}
