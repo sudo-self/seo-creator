@@ -24,7 +24,7 @@ export default function WarningMsg() {
           <Text as="span" fontWeight="semibold">
             Warning:{' '}
           </Text>
-          Place these meta tags in your html document
+          make sure your image is online if local upload.
         </Text>
       </Box>
     </Box>
