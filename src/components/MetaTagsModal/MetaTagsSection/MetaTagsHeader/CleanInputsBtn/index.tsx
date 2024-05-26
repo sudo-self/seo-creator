@@ -84,7 +84,7 @@ export default function ConfirmModal({ iconColor }: { iconColor: string }) {
             p="0rem 0.6rem"
             onClick={handleClearInputs}
           >
-            Confirm
+           Yes I am Sure!
           </Button>
         </PopoverFooter>
       </PopoverContent>
