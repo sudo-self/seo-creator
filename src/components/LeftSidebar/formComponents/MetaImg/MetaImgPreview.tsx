@@ -5,7 +5,7 @@ import { FormEvent, useState } from 'react';
 import { useGetInputStates } from 'hooks/useGetInputStates';
 import { MdClose } from 'react-icons/md';
 
-const baseBgImgUrl ='https://gray-wmctv-prod.cdn.arcpublishing.com/resizer/v2/I6F4HDKGGJFHZIFSDOHCHCUBIU.jpg?auth=2c44e3f499ff5c520149f85c7ee336fd0f73d598621e850dad00e5deb8801ea7&width=980&height=548&smart=true&fit=crop&w=774&q=80';
+const baseBgImgUrl ='https://firebasestorage.googleapis.com/v0/b/svelte-forever.appspot.com/o/clouds.jpeg?alt=media&token=50c312f9-eb16-46a6-8cd9-77f8b6321857&width=980&height=548&smart=true&fit=crop&w=774&q=80';
 
 export default function MetaImgPreview() {
   const [hover, setHover] = useState<boolean>(false);
