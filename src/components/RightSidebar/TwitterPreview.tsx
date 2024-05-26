@@ -12,7 +12,7 @@ export default function TwitterPreview() {
 
   return (
     <FadeIn>
-      <PreviewTittle title="Twitter" />
+      <PreviewTittle title="X" />
       <Box
         m="0.5rem 0 1rem"
         maxW="400px"
