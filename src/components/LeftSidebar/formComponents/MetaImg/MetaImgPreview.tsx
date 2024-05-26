@@ -6,7 +6,7 @@ import { useGetInputStates } from 'hooks/useGetInputStates';
 import { MdClose } from 'react-icons/md';
 
 const baseBgImgUrl =
-  'https://seo-creator.vercel.app/icon-512.png&auto=format&fit=crop&w=774&q=80';
+  'https://firebasestorage.googleapis.com/v0/b/svelte-forever.appspot.com/o/1.jpg?alt=media&token=cf7f9142-9eb4-45c6-bbf8-2ca712b39796&fit=crop&w=774&q=80';
 
 export default function MetaImgPreview() {
   const [hover, setHover] = useState<boolean>(false);
