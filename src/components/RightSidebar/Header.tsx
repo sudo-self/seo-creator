@@ -27,7 +27,7 @@ export default function Header() {
           onMouseEnter={setFlag.toggle}
           onMouseLeave={setFlag.toggle}
         >
-          Online Preview (complete all fields to generate)
+          SEO Preview (complete all fields to create)
           <Fade in={flag}>
             <Box
               as="span"
