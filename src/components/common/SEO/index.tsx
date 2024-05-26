@@ -23,7 +23,7 @@ export default function SEO({
       <meta property="og:description" content={`${description}"`} />
       <meta property="og:image" content="/seo-img.png" />
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://https://seo-creator.vercel.app" />
+      <meta property="twitter:url" content="https://seo-creator.vercel.app" />
       <meta property="twitter:title" content={`${title}"`} />
       <meta property="twitter:description" content={`${description}" `} />
       <meta property="twitter:image" content="/seo-img.png" />
