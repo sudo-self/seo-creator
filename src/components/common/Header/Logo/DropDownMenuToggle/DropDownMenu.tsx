@@ -24,17 +24,17 @@ export default function DropDownMenu() {
     >
       <DropDownItem
         text="GitHub"
-        url="https://github.com/mrLuisFer"
+        url="https://github.com/sudo-self/seo-creator/"
         borderRadius={`${commonBorderRadius} ${commonBorderRadius} 0 0`}
       >
         <ImGithub />
       </DropDownItem>
-      <DropDownItem text="LinkedIn" url="https://www.linkedin.com/in/mrluisfer/" hoverIconColor="#0077b5">
+      <DropDownItem text="LinkedIn" url="https://www.linkedin.com/in/jrsdevelopments/" hoverIconColor="#0077b5">
         <BsLinkedin />
       </DropDownItem>
       <DropDownItem
-        text="Twitter"
-        url="https://twitter.com/_mrLuisFer"
+        text="X"
+        url="https://x.com/ilostmyipad"
         borderRadius={`0 0 ${commonBorderRadius} ${commonBorderRadius}`}
         hoverIconColor="#00acee"
       >
