@@ -6,7 +6,7 @@ export default function MetaImgUrl() {
 
   return (
     <InputForm
-      placeholder="https://website.com/preview.jpg"
+      placeholder="https://seo-creator.vercel.app/img-preview.jpg"
       inputId="metaImgUrl"
       marginBottom="0.5rem"
       state={imgUrl}
