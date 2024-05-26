@@ -26,14 +26,14 @@ export default function GoogleSearchPreview() {
           textTransform={capitalizedText ? 'capitalize' : 'none'}
           _hover={{ textDecoration: 'underline' }}
         >
-          {titleInput.length > 1 ? titleInput : 'Seo Generator - Generate, Edit and Preview your SEO'}
+          {titleInput.length > 1 ? titleInput : 'Seo Creator- Create, Edit, and Deploy your SEO'}
         </Text>
         <Text color={useColorModeValue('#006621', 'green.400')} display="flex" alignItems="center" fontSize="0.9rem" textTransform="lowercase">
-          {ogUrl.length > 1 ? `https://${ogUrl}/` : 'https://seo-generator.vercel.app/'}
+          {ogUrl.length > 1 ? `https://${ogUrl}/` : 'https://seo-creator.vercel.app/'}
           <IoMdArrowDropdown />
         </Text>
         <Text color={useColorModeValue('#545454', 'gray.400')} fontWeight="normal" fontSize="0.9rem">
-          {descriptionTextarea.length > 1 ? descriptionTextarea : 'Some description about the website.'}
+          {descriptionTextarea.length > 1 ? descriptionTextarea : 'SEO Creator tool written in TypeScript'}
         </Text>
       </Box>
     </FadeIn>
