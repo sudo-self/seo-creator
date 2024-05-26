@@ -26,7 +26,7 @@ export default function LeftSidebar() {
           <InputForm
             inputId="titleInput"
             labelValue="Title"
-            placeholder="Seo Creator"
+            placeholder="SEO Tag Forge"
             value={titleInput}
             required
             infoTxt="title of the page"
@@ -67,7 +67,7 @@ export default function LeftSidebar() {
             inputId="author"
             value={author}
             labelValue="Author"
-            placeholder="SudoSelf"
+            placeholder="Web Developer"
             infoTxt="author of the page"
             state={author}
             setState={setAuthor}
