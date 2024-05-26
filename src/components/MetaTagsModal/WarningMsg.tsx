@@ -24,7 +24,7 @@ export default function WarningMsg() {
           <Text as="span" fontWeight="semibold">
             Warning:{' '}
           </Text>
-          Be sure you have your image on a CMS or host.
+          Place these meta tags in your html document
         </Text>
       </Box>
     </Box>
