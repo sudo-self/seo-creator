@@ -20,8 +20,7 @@ export default function CopyTextBtn({ clickFunc }: ICopyTextBtnProps) {
     <Fade in={true}>
       <Box display="flex" alignItems="center" gridGap="0.7rem">
         <Text fontSize="0.9rem" color="white">
-          Copy the code into your website {/* TODO: should use keyboard-css (?) and add some keyboard shortcuts ;) */}
-          {/* https://github.com/shhdharmen/keyboard-css */}
+          place the code into the head of your idex html 
           <Text
             as="code"
             fontFamily="monospace"
