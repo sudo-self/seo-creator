@@ -18,7 +18,7 @@ export default function LeftSidebar() {
     <Box as="section" borderRight="1px solid" p="1rem" borderColor={useColorModeValue('border.100', 'gray.700')}>
       <FadeIn>
         <Heading as="h2" fontSize="1rem" mb="1rem" display="flex" justifyContent="space-between">
-          Metadata
+         Website Metadata
           <CleanInputsBtn iconColor="white" />
         </Heading>
         <MetaImg />
