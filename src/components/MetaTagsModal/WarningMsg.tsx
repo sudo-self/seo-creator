@@ -24,7 +24,7 @@ export default function WarningMsg() {
           <Text as="span" fontWeight="semibold">
             Warning:{' '}
           </Text>
-          make sure your image is online if local upload.
+          make sure your image is online if uploaded local.
         </Text>
       </Box>
     </Box>
