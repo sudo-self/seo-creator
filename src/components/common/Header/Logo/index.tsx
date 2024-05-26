@@ -14,7 +14,7 @@ export default function Logo() {
           _hover={{ transform: 'scale(1.1)' }} 
         />
         <Heading as="h1" size="md" userSelect="none">
-          SEO CREATOR
+          seo-creator.vercel.app
         </Heading>
       </Link>
     </NextLink>
