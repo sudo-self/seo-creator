@@ -10,7 +10,7 @@ export default function SocialSidebar() {
     <Box as="section" borderRight="1px solid" borderColor={useColorModeValue('border.100', 'gray.700')} pt="1rem">
       <Box display="flex" alignItems="center" justifyContent="space-between" m="0 1rem 1rem">
         <Heading as="h2" fontSize="1rem">
-          Social Preview
+          Select Social Preview
         </Heading>
         <Button
           fontSize="1.5rem"
