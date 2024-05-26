@@ -4,7 +4,7 @@ import { SiSpringCreators } from 'react-icons/si';
 
 export default function Logo() {
   return (
-    <NextLink href="/" key="home">
+    <NextLink href="/" passHref>
       <Link display="flex" alignItems="center" gridGap="0.3rem" _hover={{ textDecoration: 'none' }}>
         <Text
           color="fill.300"
@@ -22,3 +22,4 @@ export default function Logo() {
     </NextLink>
   );
 }
+
