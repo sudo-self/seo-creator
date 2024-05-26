@@ -16,8 +16,8 @@ export default function Main() {
       flexDirection="column"
     >
       <SEO
-        title="Seo Creator - Create, Edit and Deploy your SEO"
-        description="A web page made with Typescript and React"
+        title="Seo Creator - create, edit and deploy your seo"
+        description="A web page made with typescript and react"
       />
       <SocialSidebar />
       <LeftSidebar />
