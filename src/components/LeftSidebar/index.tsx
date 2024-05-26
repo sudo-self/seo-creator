@@ -26,10 +26,10 @@ export default function LeftSidebar() {
           <InputForm
             inputId="titleInput"
             labelValue="Title"
-            placeholder="Seo Generator - Generate, Edit And Preview Your SEO"
+            placeholder="Seo Creator"
             value={titleInput}
             required
-            infoTxt="The title of the page, this is the most important part of the SEO"
+            infoTxt="title of the page"
             state={titleInput}
             setState={setTitleInput}
           >
@@ -47,7 +47,7 @@ export default function LeftSidebar() {
             inputId="ogUrl"
             value={ogUrl}
             placeholder="seo-generator.vercel.app"
-            infoTxt="The ogUrl of the page, this is the most important part of the SEO"
+            infoTxt="open graph url" 
             state={ogUrl}
             setState={setOgUrl}
             labelValue="Url"
@@ -55,10 +55,10 @@ export default function LeftSidebar() {
           />
           <TextareaForm
             labelValue="Description"
-            placeholder="A nice site created with some tech stack :D"
+            placeholder="SEO Creator tool written in typscript"
             required
             resize="none"
-            infoTxt="The description of the page, this is the most important part of the SEO"
+            infoTxt="description of the page"
             textareaId="descriptionTextarea"
             state={descriptionTextarea}
             setState={setDescriptionTextarea}
@@ -67,8 +67,8 @@ export default function LeftSidebar() {
             inputId="author"
             value={author}
             labelValue="Author"
-            placeholder="mrLuisFer"
-            infoTxt="The author of the page, this is the most important part of the SEO"
+            placeholder="sudo-self"
+            infoTxt="author of the page"
             state={author}
             setState={setAuthor}
           />
