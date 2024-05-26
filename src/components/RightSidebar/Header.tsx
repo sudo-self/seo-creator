@@ -84,7 +84,7 @@ export const GenerateMetatagsBtn = ({ setIsOpen }: { setIsOpen: Dispatch<SetStat
       onClick={handleGenerateTags}
     >
       <RiCodeSSlashFill />
-      Generate MetaTags
+      CREATE SEO
     </Button>
   );
 };
