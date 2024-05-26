@@ -46,7 +46,7 @@ export default function LeftSidebar() {
           <InputForm
             inputId="ogUrl"
             value={ogUrl}
-            placeholder="seo-creator.vercel.app"
+            placeholder="www.example.com"
             infoTxt="open graph url" 
             state={ogUrl}
             setState={setOgUrl}
@@ -55,7 +55,7 @@ export default function LeftSidebar() {
           />
           <TextareaForm
             labelValue="Description"
-            placeholder="SEO Creator tool written in typscript"
+            placeholder="effortlessly optimize your website's SEO with tailored tags using this intuitive tag generation tool."
             required
             resize="none"
             infoTxt="description of the page"
@@ -67,7 +67,7 @@ export default function LeftSidebar() {
             inputId="author"
             value={author}
             labelValue="Author"
-            placeholder="sudo-self"
+            placeholder="SudoSelf"
             infoTxt="author of the page"
             state={author}
             setState={setAuthor}
