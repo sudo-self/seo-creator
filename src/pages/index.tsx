@@ -1,4 +1,5 @@
-import { Box, ChakraProvider, Head } from '@chakra-ui/react';
+import { Box, ChakraProvider } from '@chakra-ui/react';
+import Head from 'next/head'; 
 import LeftSidebar from 'components/LeftSidebar';
 import RightSidebar from 'components/RightSidebar';
 import SocialSidebar from 'components/SocialSidebar';
