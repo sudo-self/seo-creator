@@ -27,7 +27,7 @@ export default function TwitterPreview() {
           border="1px solid"
           borderColor={hover ? 'fill.300' : 'border.100'}
           borderRadius="7px 7px 0 0"
-          src="https://images.unsplash.com/photo-1616469829718-0faf16324280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          src="https://firebasestorage.googleapis.com/v0/b/svelte-forever.appspot.com/o/trace-2.svg?alt=media&token=30c5c63f-cf92-4721-a8cd-376a5548b960&auto=format&fit=crop&w=870&q=80"
         />
         <Box
           bg={useColorModeValue('white', 'gray.300')}
@@ -45,13 +45,13 @@ export default function TwitterPreview() {
             color="gray.900"
             textTransform={capitalizedText ? 'capitalize' : 'none'}
           >
-            {titleInput.trim().length > 1 ? titleInput : 'Seo Generator - Generate, Edit and Preview'}
+            {titleInput.trim().length > 1 ? titleInput : 'Seo Creator - create, edit and deploy your seo'}
           </Text>
           <Text color="#606770" fontSize="0.9rem">
-            {descriptionTextarea.trim().length > 1 ? descriptionTextarea : 'Some description about the website.'}
+            {descriptionTextarea.trim().length > 1 ? descriptionTextarea : 'seo cretor tool writen in typescript'}
           </Text>
           <Text textTransform="lowercase" fontSize="0.8rem" fontWeight="normal" color="gray.600">
-            {ogUrl.trim().length > 1 ? `${ogUrl}`.trimStart().trimEnd() : 'seo-generator.vercel.app'}
+            {ogUrl.trim().length > 1 ? `${ogUrl}`.trimStart().trimEnd() : 'seo-creator.vercel.app'}
           </Text>
         </Box>
       </Box>
