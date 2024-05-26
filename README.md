@@ -9,8 +9,11 @@ Welcome to SEO Creator, an Android mobile application designed to assist you in 
 ### Installation
 
 To get started with SEO Creator, simply download the Android mobile app from the following link:
+(below is an example)
 
 [Download SEO Creator Android App](https://github.com/sudo-self/seo-creator/archive/refs/tags/seo.zip)
+
+
 
 ```jsx
       <Head>
