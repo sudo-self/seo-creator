@@ -71,7 +71,7 @@ export default function ConfirmModal({ iconColor }: { iconColor: string }) {
         <PopoverHeader>Confirm</PopoverHeader>
         <PopoverArrow />
         <PopoverCloseButton />
-        <PopoverBody fontSize="0.8rem">Are you sure you want to remove the content of the inputs?</PopoverBody>
+        <PopoverBody fontSize="0.8rem">say what? remove the content of the inputs?</PopoverBody>
         <PopoverFooter display="flex" gridGap="1rem">
           <Button fontSize="0.9rem" p="0rem 0.6rem" onClick={onClose}>
             Cancel
