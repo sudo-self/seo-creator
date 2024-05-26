@@ -46,7 +46,7 @@ export default function LeftSidebar() {
           <InputForm
             inputId="ogUrl"
             value={ogUrl}
-            placeholder="seo-generator.vercel.app"
+            placeholder="seo-creator.vercel.app"
             infoTxt="open graph url" 
             state={ogUrl}
             setState={setOgUrl}
